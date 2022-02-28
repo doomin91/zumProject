@@ -1,0 +1,24 @@
+{
+   "type": "mysql",
+   "host": "192.168.253.111",
+   "port": 23306,
+   "username": "with",
+   "password": "dkrakrhs1004",
+   "database": "V_WITH_FLOW",
+   "synchronize": false,
+   "logging": false,
+   "entities": [
+      "./dist/entities/*.js"
+   ],
+   "migrations": [
+      "./dist/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "./dist/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "./dist/entities",
+      "migrationsDir": "./dist/migration",
+      "subscribersDir": "./dist/subscriber"
+   }
+}

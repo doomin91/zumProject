@@ -1,0 +1,10 @@
+export function getNode(req: any, res: any): Promise<void>;
+export function getAllNode(req: any, res: any): Promise<void>;
+export function getRootNode(req: any, res: any): Promise<void>;
+export function getChildNode(req: any, res: any): Promise<void>;
+export function deleteNode(req: any, res: any): Promise<void>;
+export function saveNode(req: any, res: any): Promise<void>;
+export function filterSearch(req: any, res: any): Promise<void>;
+export function modifyNode(req: any, res: any): Promise<void>;
+export function exportFlowChart(req: any, res: any): Promise<void>;
+export function importFlowChart(req: any, res: any): Promise<boolean>;

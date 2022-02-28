@@ -1,0 +1,9 @@
+export function insertChildren(req: any, res: any): Promise<void>;
+export function updateDepart(req: any, res: any): Promise<void>;
+export function deleteDepart(req: any, res: any): Promise<void>;
+export function getDepartChart(req: any, res: any): Promise<void>;
+export function getDepartList(req: any, res: any): Promise<any[]>;
+export function addAdminUser(data: any, res: any): Promise<void>;
+export function getUsersInDepart(req: any, res: any): Promise<void>;
+export function getPositionList(req: any, res: any): Promise<any[]>;
+export function getUserList(req: any, res: any): Promise<void>;

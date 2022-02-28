@@ -1,0 +1,203 @@
+
+/* main dashboard table */
+.DashboardTable {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #32394e;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.DashboardTable th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    border-bottom: 1px solid #32394e;
+}
+.DashboardTable td {
+    box-sizing: border-box;
+    padding: .75rem;
+    text-align:center;
+    border-bottom: 1px solid #32394e;
+
+}
+
+.DashboardTable_01 {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #32394e;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.DashboardTable_01 .el-table {
+    background-color:transparent;
+}
+
+.DashboardTable_01 .el-table th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    border-bottom: 1px solid #32394e;
+    background-color:#2a3042;
+}
+.DashboardTable_01 .el-table td {
+    box-sizing: border-box;
+    padding: .75rem;
+    text-align:center;
+    border-bottom: 1px solid #32394e;
+    background-color:#2a3042;
+    color:#f6f6f6;
+}
+
+.DashboardTable_01 .el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color:#2e3448;
+}
+
+.DashboardTable_01 .el-table--border::after, .el-table--group::after, .el-table::before {
+    background-color: #32394e;
+}
+
+
+
+.customTable {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #32394e;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.customTable .el-table {
+    background-color:transparent;
+}
+
+.customTable .el-table th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    border-bottom: 1px solid #32394e;
+    background-color:#2a3042;
+}
+.customTable .el-table td {
+    box-sizing: border-box;
+    padding: .75rem;
+    text-align:center;
+    border-bottom: 1px solid #32394e;
+    background-color:#2a3042;
+    color:#f6f6f6;
+}
+
+.customTable .el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color:#2e3448;
+}
+
+.customTable .el-table--border::after, .el-table--group::after, .el-table::before {
+    background-color: #32394e;
+}
+
+
+.customTable01 {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #32394e;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.customTable01 th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    border-bottom: 1px solid #32394e;
+}
+.customTable01 td {
+    box-sizing: border-box;
+    padding: .75rem;
+    text-align:center;
+    border-bottom: 1px solid #32394e;
+
+}
+
+
+/* apply table */
+.ApplyTable01 {
+    position: relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;    
+}
+.ApplyTable01 th {
+    background-color:#2a3042;
+    padding:10px 0;
+    border:1px solid #32394e;
+    color: #a6b0cf;
+}
+.ApplyTable01 tr {
+    border-bottom:1px solid #32394e;
+}
+
+.ApplyTable01 td {
+    box-sizing: border-box;
+    padding:10px;
+    text-align:center;
+}
+
+.ApplyTable02 {
+    position: relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;    
+}
+.ApplyTable02 th {
+    background-color:#2a3042;
+    padding:10px 0;
+    border-top:1px solid #32394e;
+    border-bottom:1px solid #32394e;
+    color:#a6b0cf;
+}
+.ApplyTable02 tr {
+    border-bottom:1px solid #32394e;
+}
+
+.ApplyTable02 td {
+    box-sizing: border-box;
+    padding:10px;
+    text-align:center;
+    border-top:1px solid #32394e;
+}
+
+.confirmTable {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+.confirmTable tr {
+    border-bottom: 1px solid #32394e;
+}
+.confirmTable th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    text-align:center;
+}
+.confirmTable td {
+    box-sizing: border-box;
+    padding: .75rem;
+
+}
+
+
+
+

@@ -1,0 +1,9 @@
+export function getUser(req: any, res: any): Promise<void>;
+export function getUserList(req: any, res: any): Promise<void>;
+export function deleteUser(req: any, res: any): Promise<void>;
+export function updateUserInfo(req: any, res: any): Promise<void>;
+export function createUserInfo(req: any, res: any): Promise<void>;
+export function searchUserList(req: any, res: any): Promise<void>;
+export function getAdminList(req: any, res: any): Promise<void>;
+export function modifyAuth(req: any, res: any): Promise<void>;
+export function searchAdmin(req: any, res: any): Promise<void>;

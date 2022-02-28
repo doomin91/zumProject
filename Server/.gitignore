@@ -1,0 +1,5 @@
+node_modules
+Server/lib/database.js
+Server/dist
+Server/ormconfig.json
+Server/.gitignore

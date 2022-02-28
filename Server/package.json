@@ -1,0 +1,42 @@
+{
+  "name": "nodemodules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server_ts": "tsc &&tsc-watch --onSuccess \"nodemon ./dist/index.js\"",
+    "server": "nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://gon@222.239.250.47:/opt/git/NodeModules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "core-js": "^3.16.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "js-md5": "^0.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.3",
+    "reflect-metadata": "^0.1.13",
+    "sanitize-html": "^2.3.3",
+    "tsc": "^2.0.3",
+    "tsc-watch": "^4.4.0",
+    "typeorm": "^0.2.34",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.0"
+  }
+}
